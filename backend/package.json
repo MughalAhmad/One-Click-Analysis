@@ -1,0 +1,28 @@
+{
+  "name": "task-analyzer-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "One API to analyze task progress using an LLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MughalAhmad/One-Click-Analysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MughalAhmad/One-Click-Analysis/issues"
+  },
+  "homepage": "https://github.com/MughalAhmad/One-Click-Analysis#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
